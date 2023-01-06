@@ -66,7 +66,7 @@ function Header() {
               {title}
             </Button>
           </FlexBox>
-          <FlexBox>
+          /*<FlexBox>
             <FlexBox>
               <Tooltip title="Hot keys" arrow>
                 <HotKeysButton
@@ -91,7 +91,7 @@ function Header() {
                 <ThemeIcon />
               </IconButton>
             </Tooltip>
-          </FlexBox>
+          </FlexBox>*/
         </Toolbar>
       </AppBar>
     </Box>
