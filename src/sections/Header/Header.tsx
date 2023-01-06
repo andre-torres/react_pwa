@@ -39,7 +39,7 @@ function Header() {
         // to show fully customized notification
         content: (
           <Alert severity="info">
-            <AlertTitle>Notification demo (random IT jokes :))</AlertTitle>
+            <AlertTitle>Notificação)</AlertTitle>
             {getRandomJoke()}
           </Alert>
         ),
@@ -66,7 +66,7 @@ function Header() {
               {title}
             </Button>
           </FlexBox>
-          /*<FlexBox>
+          <FlexBox>
             <FlexBox>
               <Tooltip title="Hot keys" arrow>
                 <HotKeysButton
@@ -75,23 +75,23 @@ function Header() {
                   aria-label="open hotkeys dialog"
                   onClick={hotKeysDialogActions.open}
                 >
-                  alt + /
+                  Ajuda
                 </HotKeysButton>
               </Tooltip>
             </FlexBox>
             <Divider orientation="vertical" flexItem />
-            <Tooltip title="It's open source" arrow>
+            <Tooltip title="Site CMAA" arrow>
               <IconButton color="info" size="large" component="a" href={repository} target="_blank">
                 <GitHubIcon />
               </IconButton>
             </Tooltip>
             <Divider orientation="vertical" flexItem />
-            <Tooltip title="Switch theme" arrow>
+            <Tooltip title="Trocar tema" arrow>
               <IconButton color="info" edge="end" size="large" onClick={themeActions.toggle}>
                 <ThemeIcon />
               </IconButton>
             </Tooltip>
-          </FlexBox>*/
+          </FlexBox>
         </Toolbar>
       </AppBar>
     </Box>

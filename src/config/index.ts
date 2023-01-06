@@ -2,11 +2,11 @@ import isMobile from '@/utils/is-mobile';
 
 import type { Notifications } from './types';
 
-const title = 'React PWA';
+const title = 'Maria CMAA';
 
-const email = 'auther-email@gmail.com';
+const email = 'andre.torres@cmaa.ind.br';
 
-const repository = 'https://github.com/suren-atoyan/react-pwa';
+const repository = 'http://www.cmaa.ind.br/';
 
 const messages = {
   app: {
