@@ -39,7 +39,7 @@ function Header() {
         // to show fully customized notification
         content: (
           <Alert severity="info">
-            <AlertTitle>Notificação)</AlertTitle>
+            <AlertTitle>Notificação</AlertTitle>
             {getRandomJoke()}
           </Alert>
         ),
@@ -68,11 +68,11 @@ function Header() {
           </FlexBox>
           <FlexBox>
             <FlexBox>
-              <Tooltip title="Hot keys" arrow>
+              <Tooltip title="Ajuda" arrow>
                 <HotKeysButton
                   size="small"
                   variant="outlined"
-                  aria-label="open hotkeys dialog"
+                  aria-label="Abrir Ajuda"
                   onClick={hotKeysDialogActions.open}
                 >
                   Ajuda

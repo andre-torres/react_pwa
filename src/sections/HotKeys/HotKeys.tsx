@@ -1,6 +1,6 @@
 import { useHotkeys } from 'react-hotkeys-hook';
 
-import Button from '@mui/material/Button';
+//import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
@@ -26,25 +26,10 @@ function HotKeys() {
 
   return (
     <Dialog fullWidth maxWidth="xs" onClose={hotKeysDialogActions.close} open={isHotKeysDialogOpen}>
-      <DialogTitle>Hot Keys</DialogTitle>
+      <DialogTitle>Ajuda</DialogTitle>
       <DialogContent>
         <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Toggle Theme</Typography>
-          <Button color="warning" variant="outlined" onClick={themeActions.toggle}>
-            alt + t
-          </Button>
-        </FlexBox>
-        <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Toggle Sidebar</Typography>
-          <Button color="warning" variant="outlined" onClick={sidebarActions.toggle}>
-            alt + s
-          </Button>
-        </FlexBox>
-        <FlexBox alignItems="center" height={50} justifyContent="space-between">
-          <Typography>Toggle Hot Keys&apos; Dialog</Typography>
-          <Button color="warning" variant="outlined" onClick={hotKeysDialogActions.toggle}>
-            alt + /
-          </Button>
+          <Typography>Esse App está em teste!</Typography>
         </FlexBox>
       </DialogContent>
     </Dialog>
